@@ -14,17 +14,5 @@
 
 |Trường hợp kiểm thử|Dữ liệu đầu vào|Kết quả sai thực tế|Kết quả đúng mong đợi|
 |---|---|---|---|
-|Giống như số liệu ban đầu của đề bài|const hangDoiXeCho = ['30A-98765', '29B-12345', '51C-45678'];
-hangDoiXeCho.push('43D-88888')|STT 1: 30A-98765
-STT 2: 29B-12345
-STT 3: 43D-88888
-STT 4: undefined|STT 1: 29B-12345
-STT 2: 51C-45678
-STT 3: 43D-88888|
-|Trường hợp thay đổi xe thêm vào cuối|const hangDoiXeCho = ['30A-98765', '29B-12345', '51C-45678'];
-hangDoiXeCho.push('43D-88888')|STT 1: 30A-98765
-STT 2: 29B-12345
-STT 3: 66MD-9999
-STT 4: undefined|29B-12345
-STT 2: 51C-45678
-STT 3: 66MD-9999|
+|Giống như số liệu ban đầu của đề bài|const hangDoiXeCho = ['30A-98765', '29B-12345', '51C-45678']; <br> hangDoiXeCho.push('43D-88888')|STT 1: 30A-98765 <br> STT 2: 29B-12345 <br> STT 3: 43D-88888 <br> STT 4: undefined|STT 1: 29B-12345 <br> STT 2: 51C-45678 <br> STT 3: 43D-88888|
+|Trường hợp thay đổi xe thêm vào cuối|const hangDoiXeCho = ['30A-98765', '29B-12345', '51C-45678']; <br> hangDoiXeCho.push('43D-88888')|STT 1: 30A-98765 <br> STT 2: 29B-12345 <br> STT 3: 66MD-9999 <br> STT 4: undefined|STT 1: 29B-12345  <br> STT 2: 51C-45678 <br> STT 3: 66MD-9999|
